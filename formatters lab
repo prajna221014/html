@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name=""veiwport" content=""width=device-width, initial-scale=1.0">
+        <title>Formatters lab!</title>
+    </head>
+    <body>
+
+        <h1>The formatters lab</h1>
+        <p>Welcome to the lab where we style text like scientists style experiments-
+        with care and acuracy!each section shows a tag in action!</p>
+        
+    <h2>Bold v/s strong</h2>
+    <p>The <b>cheetah</b> is the fastest animal on land in the whole world!</p>
+    <p><strong>always where a helmet</strong> when riding a bicycle.</p>
+    
+    <h2>Italics v/s Emphasis</h2>
+    <p>the scientific name for a red tail catfish is <i>Phractocephalus hemioliopterus</i>.</p>
+    <p><em>never ever </em> touch chemicals without wearing gloves!</p>
+
+    <h2>Highlight & small</h2>
+    <p>Remember:<mark> water boils at 100°C</mark>at sea level.</p>
+    <p>The sun is <small>(approximately)</small> 150km away from earth.</p>
+
+    <h2> deleting text</h2>
+    <p>Pluto is a <del>planet</del>a dwarf planet.</p>
+    
+    <h2>superscript and subscript.</h2>
+    <p>the area os a 4*4 square is 16<sup>2</sup></p>
+    <p>water is made of H<sub>2</sub>O - 2 hydrogen atoms and 1 oxygen atom.</p>
+    
+    </body>
+</html>

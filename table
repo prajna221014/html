@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+  </head>
+  <body>
+
+    <h1>Olympic games-record breakers</h1>
+    <p>the Olympics bring every countery in the word together.
+        Here are some of the greatest althletes who ever competed!</p>
+
+        <h2>the greatest althletes of all time.</h2>
+
+    <table border="3">
+  <tr>
+    <th>Athlete</th>
+    <th>Country</th>
+    <th>Sport</th>
+    <th>Gold Medals</th>
+  </tr>
+   <tr>
+    <td>Michael Phelps</td>
+    <td>United States</td>
+    <td>Swimming</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>Simone Biles</td>
+    <td>United States</td>
+    <td>Gymnastics</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Usain Bolt</td>
+    <td>Jamaica</td>
+    <td>Sprinting</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Neeraj chopra</td>
+    <td>India</td>
+    <td>Javline throw</td>
+    <td>1</td>
+  </tr>
+</table>
+
+<h2>Recent olympic host cities</h2>
+<table border="3">
+    <tr>
+        <th>year</th>
+        <th>citiy</th>
+        <th>country</th>    
+      </tr>
+      <tr>
+        <td>2012</td>
+        <td>London</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td>Rio de Janeiro</td>
+        <td>Brazil</td>
+      </tr>
+      <tr>
+        <td>2020</td>
+        <td>tokyo</td>   
+        <td>Japaan</td>
+      </tr>
+      <tr>
+        <td>2024</td>
+        <td>paris</td>
+        <td>France</td>
+      </tr>
+</table>
+
+  </body>
+  </html>

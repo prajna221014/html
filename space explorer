@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+        <meta charset="UTF-8">
+        <meta name=""veiwport" content=""width=device-width, initial-scale=1.0">
+        <title>Formatters lab!</title>
+    </head>
+    
+    <body>
+
+        <center>
+            <h1>Welcome to my rocket mission</h1>
+
+            <p>Today our rocket is geting ready to travel across space</p>
+
+            <h2>step 1: Meet the rocket</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxy-t3HqyHYiHN42fgXhPoRShAQhw5sXSyqPKI92D1iyO-cXiwmML4Usc&s=10"
+            alt="readyto launch spacecraft" width="350" height="350">
+            
+            <p>this rocket will take us to the planet</p>
+
+            <h2>step 2: Our destination</h2>
+            <img src="https://png.pngtree.com/png-vector/20240705/ourmid/pngtree-colorful-cartoon-planet-with-smiling-stars-png-image_12950586.png"
+            alt="colourful planet" width="350" height="350">
+
+            <p>this is the planet we are heading towards!</p>
+
+            <h2>step 3: The space explorer</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXcd4QrBwfebIl7ORIgd2D9Zl2M0-tedpR3fv_GpjcWw&s=10"
+            alt="the astronaut" width="350" height="350">
+
+            <p>the astronaut is ready to explore the planet</p>
+
+            <h1>Mission Successful</h1>
+
+        </center>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>kids health</title>
+</head>
+
+<body>
+
+
+<header>
+  <h1>KidsCare - Your Health Guide</h1>
+  <nav>
+    <a href="#health">Stay Healthy</a>
+    <a href="#tips">Quick Tips</a>
+    <a href="#media">Watch and Learn</a>
+  </nav>
+</header>
+
+<main>
+
+    <section id="health">
+
+    <article>
+      <h2>Why Your Body Needs Exercise</h2>
+      <p>Your body is like a supercar &#8212; the more you use it,
+         the stranger it gets! Kids who move for 60 minutes a day 
+         are harrier,sleep better, and do much better at school.</p>
+         <p>dancing, swimming, yoga and football anything 
+            that gets your heart beating faster counts.
+            keep moving and have fun</p>
+    </article>
+
+
+    <figure>https://images.pexels.com/photos/8941650/pexels-photo-8941650.jpeg?auto=compress&cs=tinysrgb&w=700&h=700&fit=crop</figure>
+   <aside id="tips">...</aside>
+
+
+<article>
+  <h2>Why Your Body Needs Exercise</h2>
+  <p>Your body is like a supercar. The more
+  you use it, the stronger it gets!</p>
+</article>
+<aside id="tips">
+  <h3>Quick Health Tips</h3>
+  <ul>
+    <li>Eat 5 fruits and veggies every day</li>
+    <li>Drink 8 glasses of water daily</li>
+  </ul>
+</aside>
+
+
+<figure>
+  <img
+    src="https://images.pexels.com/photos/8941650/pexels-photo-8941650.jpeg?auto=compress&cs=tinysrgb&w=700&h=700&fit=crop"
+    alt="Kids exercising"width="700">
+    <figcaption>
+    Active kids are healthier and happier every day!
+  </figcaption>
+</figure>
+
+    </section>
+
+    <aside id="tips">
+        <h3>&#9728; Quick tips</h3>    
+        <ul>
+          <li>eat 3 fruits minimum every day</li>
+          <li>drink up to 8 glasses of water each day</li>
+          <li>sleep for 9-11 hors a day</li>
+        </ul>
+    </aside>
+
+    <h2 id="Media">watch and learn</h2>
+    <iframe width="1035" height="582" src="https://www.youtube.com/embed/CqH2QYt6oOc" 
+    title="Safety Tips for Kids |  
+    What are safety rules for kids? Video for Kids" 
+    frameborder="0" allow="accelerometer; autoplay;
+     clipboard-write; encrypted-media; gyroscope;
+      picture-in-picture; web-share" referrerpolicy=
+      "strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </main>
+
+      <footer>
+        <p>copyright &#169; 2026 KidsCare &#124; 
+        Built by a future web developer &#128512;</p>
+      </footer>
+
+</body>
+
+</html>

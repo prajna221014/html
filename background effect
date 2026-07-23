@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> bg effect </title>
+  <link rel="stylesheet" href="sp.css">
+
+</head>
+<body>
+    <div class="page-header">
+        <h1>My space Page</h1>
+        <p>welcome my part of the galaxy!</p>
+    </div>
+
+    <div class="fact-card">
+        <h1>fun space fact</h1>
+        <p>the sun is so big it could  fit trillions of earths in it!</p>
+    </div>
+
+    <div class="star"></div>
+
+    <p class="footer-text">Made by prajna</p>
+
+</body>
+</html>

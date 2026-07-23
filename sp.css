@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(224, 143, 113);
+    background-image: linear-gradient(to bottom, rgb(148, 148, 227), rgb(117, 255, 117), rgb(251, 251, 157));
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: cursive;
+}
+
+.page-header {
+    background-image: linear-gradient(to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73));
+    border-radius: 45px;
+    text-align: center;
+    color: white;
+}
+
+.fact-card {
+    background-image: linear-gradient(to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73));
+    border-radius: 45px;
+    text-align: center;
+    color: white;
+}
+
+.fact-card h2 {
+    color: rgb(238, 228, 228);
+}
+
+.star {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(214, 214, 120);
+    border-radius: 100%;
+    animation: twinkle 3s infinite alternate;
+}
+
+@keyframes twinkle {
+    from { background-color:  rgb(214, 214, 120)}
+    to {background-color: beige;}
+}
+
+.footer-text {
+    text-align: center;
+        color: rgb(239, 158, 158);
+}

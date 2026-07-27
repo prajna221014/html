@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Weather App Homepage</title>
- 
+  <title>My Weather App Homepage</title> 
+  
   <style>
     /* Universal selector: applies basic settings to the full page */
     * {

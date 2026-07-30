@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>my food menu</title> 
+  
+  <style>
+    body {
+        font-family: cursive;
+        background-image: linear-gradient(to bottom left, rgb(119, 204, 131), mediumseagreen, rgb(43, 130, 86));
+        background-repeat: no-repeat;
+        padding: 30px;
+        text-align: center;
+    }
+
+    h1 { color: beige;}
+
+    h1 + p {
+        background-image: linear-gradient(to bottom, rgb(140, 140, 209), rgb(114, 182, 114));
+        padding:  10px 20px;
+        border-radius: 8px;
+        color: cornsilk;
+        display: inline-block;
+    }
+
+    ul { padding: 0; margin-top: 20px;}
+
+    ul > li {
+        list-style: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(10, 86, 22);
+        padding: 10px 20px;
+        margin: 6px auto;
+        width: 260px;
+        background: rgb(170, 222, 178);
+        border-radius: 8px;
+    }
+
+    ul li :nth-child(3) {
+        background: rgb(63, 229, 135);
+        color: rgb(2, 54, 17);
+    }
+
+    .desc  {
+        color: mediumspringgreen;
+        font-style: italic;
+    }
+
+    .desc::first-letter {
+        font-size: medium;
+        font-family: arial;
+        font-style: normal;
+        color: mediumturquoise;
+        font-weight: bolder;
+    }
+
+    .links { margin-top: 25px;}
+
+    a {
+        color: teal;
+        text-decoration: underline;
+        font-size: large;
+        border: 2px mediumslateblue;
+        border-radius: 8px;
+    }
+    </style>
+</head>
+<body>
+    <h1>My food menu</h1>
+    <p>pick your fav!!!!!!!!!!</p>
+
+    <ul>
+        <li>pizza</li>
+         <li>ramen</li>
+          <li>maggie - everyone loves this!</li>
+           <li>munchurian</li>
+            <li>pani puri</li>
+    </ul>
+
+    <p class="desc">Thank you so much for
+         dining with us! We truly 
+         appreciate your visit and 
+         hope you enjoyed your meal 
+         and your time with us. Your 
+         support means a great deal 
+         to our team, and we look 
+         forward to welcoming you back
+          again soon. Safe travels, 
+          and see you next time!
+</p>
+
+<div class="links">
+    <a href="#">order now!</a>
+    <a href="#">see more</a>
+</div>
+</body>
+</html>

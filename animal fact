@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>snow lepord</title>
+  <style>
+   
+   body {
+      font-family: Arial, sans-serif;
+      background-color: #fff4f8;
+   }
+
+   .fact-file {
+    background-color: rgb(186, 254, 186);
+    color: mediumseagreen;
+    width: 550px;
+    padding: 50px;
+    border: 5px double darkolivegreen;
+    margin: 25px;
+   }
+
+   .animal-name {
+    color: mediumspringgreen;
+    font-size: 25px;
+    font-style: italic;
+   }
+
+   .detail {
+    color: rgb(48, 99, 48);
+   }
+
+   .cool-facts {
+    color: rgb(6, 53, 25);
+    font-style: italic;
+   }
+
+   </style>
+</head>
+<body>
+
+    <div class="fact-file">
+        <h2 class="animal-name">snow lepord</h2>
+        <p class="detail">Type: big cat</p>
+        <p class="detail">Lives in: the cold, high mountains of Central and South Asia,
+             including countries such as China, Mongolia, India, Nepal, and Pakistan. It makes its home 
+             on steep rocky cliffs, snowy slopes, and alpine meadows, usually at heights of 3,000 to 5,500 
+             metres above sea level. These areas have freezing winters, cool summers, and very little rainfall.
+              Snow leopards are well adapted to this harsh environment with thick fur to keep them warm, wide 
+              furry paws that help them walk on snow, and long tails that provide balance on rocky cliffs and 
+              extra warmth. They hunt mountain animals such as wild sheep, goats, marmots, and hares, and their
+               spotted grey coat helps them blend into the rocks and snow, making them difficult to see.</p>
+                 <p class="detail">A snow leopard is a carnivore, which means it eats meat. Its diet 
+                mainly consists of wild mountain animals such as blue sheep, ibex, Himalayan tahr,
+                 and argali sheep. It also hunts smaller animals like marmots, pikas, hares, and 
+                 birds. Snow leopards are strong and patient hunters, using their powerful legs to 
+                 leap onto prey from rocky cliffs. If wild prey is scarce, they may also hunt
+                  livestock such as sheep or goats. A snow leopard can eat a large amount of 
+                  meat at one time and may return to the same kill over several days until it
+                   is finished.</p>
+                   <p class="cool-facts">
+🐆 Snow leopards are called the "ghosts of the mountains" because they are so quiet and hard to spot.<br>
+🦘 They can jump up to 15 metres (50 feet) in a single leap—that's about the length of a school bus!<br>
+🧣 Their long, fluffy tails can grow to almost 1 metre (3 feet) long and help them balance on steep cliffs. They also wrap their tails around themselves like a scarf to stay warm.<br>
+❄️ Their thick fur keeps them warm in temperatures as low as -40°C (-40°F).<br>
+👣 Their wide, furry paws act like natural snowshoes, helping them walk across deep snow.<br>
+😺 Unlike most big cats, snow leopards cannot roar. Instead, they make sounds like meows, growls, and a friendly "chuff."<br>
+🌙 They are most active at dawn and dusk, when they go hunting.<br>
+👶 Baby snow leopards are called cubs, and they stay with their mother for up to two years while learning to hunt.<br>
+🏔️ Snow leopards live higher up in the mountains than almost any other big cat.<br>
+🌍 There are only an estimated 4,000–6,500 snow leopards left in the wild, making them a vulnerable species.<br>
+                   </p>
+                
+    </div>
+</body>
+</html>

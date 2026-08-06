@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>pets</title>
+  <style>
+    body {
+        font-family: cursive;
+        background-color: beige;
+        padding: 60px 30px 30px 30px;
+        min-height: 2000px;
+    }
+    h1, h2 { color: mediumspringgreen;}
+
+    .top-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(135, 233, 135);
+        color: darkolivegreen;
+        padding: 15px;
+    }
+
+    .list-item {
+        background-color: rgb(125, 210, 182);
+        border: 5px double rgb(149, 193, 237);
+        padding: 10px 20px;
+        margin: 5px 0;
+    }
+
+    .special-note {
+        position: relative;
+        left: 30px;
+        background-color: mediumturquoise;
+        padding:  10px 20px;
+    }
+
+    .pet-card {
+        position: relative;
+        background-color: rgb(77, 161, 115);
+        border: 5px dotted rgb(70, 139, 139);
+        padding:  15px 25px;
+    }
+
+    .badge {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        background-color: rgb(79, 139, 79);
+        color: floralwhite;
+        padding: 5px 10px;
+    }
+
+    .section-lable {
+        position: sticky;
+        top: 60px;
+        background-color: aquamarine;
+        color: white;
+        padding: 10px 20px;
+        margin: 15px 0 8px;
+    }
+    </style>
+</head>
+<body>
+    <div class="top-bar">my pet page - buddy the labrador.</div>
+    <h1>meet buddy</h1>
+
+    <h2>static</h2>
+    <div class="list-item">breed:labrador</div>
+     <div class="list-item">age:3yrs</div>
+
+     <h2>relative</h2>
+     <p>this note shifts right from its normal spot</p>
+     <div class="special-note">pet of the month</div>
+
+     <h2>absolute</h2>
+     <p>the badge is pinned to the corner of the card.</p>
+     <div class="pet-card">
+        <p>buddy - labrador - 3yrs</p>
+        <div class="badge">adotpted</div>
+     </div>
+
+     <h2>sticky</h2>
+     <p>scroll down - the label locks at the top.</p>
+     <div class="section-lable">more pets available</div>
+     <div class="list-item">luna - poodle, 1yr</div>
+     <div class="list-item">max - german sheperd, 3yrs</div>
+     <div class="list-item">daisy - beagle, 4yrs</div>
+     <div class="list-item">rocky - golden retriever, 5yrs</div>
+     <div class="list-item">bella - border collie, 4yrs</div>
+     <div class="list-item">charlie - shih tzu, 2yrs</div>
+     <div class="list-item">coco - husky, 3yrs</div>
+     <div class="list-item">mila - tabby cat, 2yrs</div>
+</body>
+</html>

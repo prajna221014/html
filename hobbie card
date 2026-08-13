@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hobbie card</title>
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, initial-scale">
+
+<link rel="stylesheet"
+
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<style>
+    body {
+        background-color: rgb(220, 245, 233);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+        padding: 25px 15px;
+    }
+
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+        color: mediumspringgreen;
+    }
+
+    .hobby-card {
+        text-align: center;
+        border: 5px dashed darkolivegreen;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        background-color: rgb(220, 245, 233)
+    }
+
+    .hobby-card-h3 {
+        color: mediumseagreen;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>my hobbies</h1>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="hobby-card">
+            <h3>art</h3>
+            <p>I love doing art as it helps me relax and express my imagination.</p>
+            </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="hobby-card">
+            <h3>listening to music</h3>
+            <p> (especially <img src="https://1000logos.net/wp-content/uploads/2020/03/Stray-Kids-Logo.png" alt="stray kids" width="100" height="50">) </p>
+            </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="hobby-card">
+            <h3>reading</h3>
+            <p>I like reading as it is very relaxing!</p>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+
+</body>
+</html>

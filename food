@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>food</title>
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, initial-scale">
+
+<link rel="stylesheet"
+
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<style>
+
+    body {
+        background-color: mediumaquamarine;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        padding: 25px;
+    }
+
+    h1,h2 {
+        color: mediumseagreen;
+        margin-top: 30px;
+    }
+
+    abbr {
+        color: rgb(0, 0, 0);
+        font-weight: bold; cursor: help;
+    }
+
+    blockquote {
+        border-left: 5px solid rgb(0, 0, 0);
+        padding: 15px;
+        color: darkolivegreen;
+        font-style: italic;
+        text-align: left;
+        display: inline-block;        
+    }
+
+    hr {border-color: mediumseagreen;}
+
+    </style>
+</head>
+<body>
+
+    <p class="display-1">my food diary</p>
+    <p class="display-2">top food dishes</p>
+    <p class="display-3">fun food facts</p>
+    <p class="display-4">food guide <small>by prajna</small></p>
+
+    <hr>
+    <h1>did you know</h1>
+    <p>pizza is the most popular dish ordered by may kids and adults all around the world</p>
+
+    <hr>
+    <h2>cooking styles</h2>
+    <p>my <mark>favourite</mark>way to cook with family is with a good old <abbr title="barbecue">bbq </abbr>on a sunny evening.</p>
+
+    <hr>
+    <h2>food quote</h2>
+    <blockquote>
+        <q>first we eat, then we do everything else.</q>
+        <p>- M.F.K. Fisher</p>    
+    </blockquote>
+
+</body>
+</html>

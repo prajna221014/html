@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>hobby club</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="container-fluid bg-primary text-white">
+    <h1>my hobby hub</h1>
+    <p>a page about things I love to do</p>
+</div>
+
+<div class="container">
+   
+    <div class="bg-success text-white p-3 my-3">
+    <h2>art</h2>
+    <p>I love doing art as it helps me relax and express my imagination.</p>
+</div>
+
+<div class="bg-warning border border-dark p-3 my-3">
+    <h2>reading</h2>
+    <p>I like reading as it is very relaxing!</p>
+</div>
+
+<div class="bg-info text-white border border-dark p-3 my-3">
+    <h3>listening to music</h3>
+    <p> (especially <img src="https://1000logos.net/wp-content/uploads/2020/03/Stray-Kids-Logo.png" alt="stray kids" width="100" height="50">) </p>
+</div>
+
+<div class="bg-danger border border-dark p-3 my-3">
+    <h2>jujitsu</h2>
+    <p>I like jujitsu as it is very fun and it is self-defence!</p>
+</div>
+
+<div class="bg-light border border-dark p-3 my-3">
+    <h2>badminton</h2>
+    <p>I enjoy badminton as it is fun exercise and helps with hand-eye co-ordination.</p>
+</div>
+</div>
+
+<div class="container-fluid bg-dark text-white p-3">
+    <p>made with bootstrap - my hobby hub</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>nature club</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="container-fluid bg-primary text-white">
+    <h1>my nature club</h1>
+    <p>a page about nature facts</p>
+</div>
+
+<div class="container">
+   
+    <div class="bg-success text-white p-3 my-3">
+    <h2>Talking trees</h2>
+    <p>Trees "talk" to each other using a secret network of tiny fungi in the dirt to share warnings about bugs or lack of water.</p>
+</div>
+
+<div class="bg-warning border border-dark p-3 my-3">
+    <h2>super speed</h2>
+    <p>Bamboo is the fastest-growing plant on Earth. Some types can grow up to 35 inches in just one single day.</p>
+</div>
+
+<div class="bg-info text-white border border-dark p-3 my-3">
+    <h3>more than stars</h3>
+    <p> Scientists estimate there are more trees on Earth than there are stars in our whole galaxy!</p>
+</div>
+
+<div class="bg-danger border border-dark p-3 my-3">
+    <h2> amazing surprises</h2>
+    <p>blue whales that are bigger than giant dinosaurs.</p>
+</div>
+
+<div class="bg-light border border-dark p-3 my-3">
+    <h2>Rain makers</h2>
+    <p> Big forests like the Amazon pump water into the air to make their own weather and rain.</p>
+</div>
+</div>
+
+<div class="container-fluid bg-dark text-white p-3">
+    <p>made with bootstrap - my nature club</p>
+</div>
+</body>
+</html>

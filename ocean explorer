@@ -28,7 +28,9 @@
   <div class="container mt-4">
 
     <h4 class="section-title">Exploring the Ocean...</h4>
+    <div class="spinner-border text-primary" role="status"></div>
     <div class="spinner-border text-info" role="status"></div>
+    <div class="spinner-border text-success" role="status"></div>
 
     <h4 class="section-title">Amazing Sea Animals</h4>
 

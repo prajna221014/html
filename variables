@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1 id="javascrip"></h1>
+    <p>sum of 2 num</p>
+    <p id="result"></p>
+
+    <script>
+        var num1 = 6;
+        var num2 = 7;
+        var sum = num1 + num2;
+         document.getElementById("result").innerHTML = "the total sum is: " + sum;
+         </script>
+</body>
+</html>

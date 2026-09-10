@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>js string method</h2>
+    <p>basic method</p>
+    <script>
+        var str = "StRaY KiDs";
+        document.write("<br>Uppercase: ");
+        document.write(str.toUpperCase());
+
+        document.write("<br>Lowercase: ");
+        document.write(str.toLowerCase());
+
+        document.write("<br>Does it start with a S? ");
+        document.write(str.startsWith('S'));
+
+        var strl = "I learnt about methods";
+        var test_str = new RegExp("info")
+        var res = test_str.test(strl);
+        document.write("<br>Does strl contain test? ");
+        document.write(res);
+
+        </script>
+</body>
+</html>

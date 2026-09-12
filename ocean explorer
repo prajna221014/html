@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <style>
-    body { background-color: #e8f8ff; }
+    .body { background-image: linear-gradient(to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73)); }
     .navbar { background-color: #006994; }
     .navbar-brand, .nav-link { color: #fff !important; }
     .section-title { color: #006994; margin: 20px 0 10px; }

@@ -16,10 +16,9 @@
       font-size: 1.8rem;
       color: white;
     }
-    .slide-rainforest { background: forestgreen; }
-    .slide-river { background: steelblue; }
-    .slide-night { background: #3b2f63; }
-
+    .slide-rainforest { background-image: linear-gradient(to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73)); }
+    .slide-river { background-image: linear-gradient(to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73)); }
+    .slide-night { background-image: linear-gradient(to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73)); }
 
     .section {
       padding: 70px 20px;

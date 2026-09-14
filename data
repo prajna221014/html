@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>data</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- STEP 1 - Bootstrap CSS link -->
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body { background-image: linear-gradient (to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73)); }
+    h1 { color: rgb(33, 26, 74);}
+    .card-lable {font-size: 12px; color: white; text-transform: uppercase;}
+    pre { font-size: 15px; color: black;}
+    </style>
+</head>
+<body class="py-4">
+
+    <div class="container">
+
+        <h1 class="mb-1">my phone contact</h1>
+        <p class="text-muted mb-4">
+            intro to objects in jungle-slide
+        </p>
+
+        <div class="card shadow-sm mb-3" style="max-width: 400px;">
+            <div class="card-body">
+                <h5 class="card-title" style="color: rgb(15, 15, 88);">
+                contact details</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <span class="card-lable d-block">school</span>
+                        <strong id="school">-</strong>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="card-lable d-block">phone</span>
+                        <strong id="phone">-</strong>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="card-lable d-block">city</span>
+                        <strong id="city">-</strong>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="card-lable d-block">age</span>
+                        <strong id="age">-</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card-shadow-sm" style="max-width: 400px;"

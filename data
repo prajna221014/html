@@ -12,7 +12,7 @@
   <style>
     body { background-image: linear-gradient (to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73)); }
     h1 { color: rgb(33, 26, 74);}
-    .card-lable {font-size: 12px; color: white; text-transform: uppercase;}
+    .card-lable {font-size: 12px; color: rgb(232, 215, 215); text-transform: uppercase;}
     pre { font-size: 15px; color: black;}
     </style>
 </head>
@@ -20,7 +20,7 @@
 
     <div class="container">
 
-        <h1 class="mb-1">my phone contact</h1>
+        <h1 class="mb-1">My Phone Contact</h1>
         <p class="text-muted mb-4">
             intro to objects in jungle-slide
         </p>
@@ -31,23 +31,62 @@
                 contact details</h5>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
-                        <span class="card-lable d-block">school</span>
-                        <strong id="school">-</strong>
+                        <span class="card-label d-block">school</span>
+                        <strong id="company">-</strong>
                     </li>
                     <li class="list-group-item">
-                        <span class="card-lable d-block">phone</span>
+                        <span class="card-label d-block">phone</span>
                         <strong id="phone">-</strong>
                     </li>
                     <li class="list-group-item">
-                        <span class="card-lable d-block">city</span>
+                        <span class="card-label d-block">city</span>
                         <strong id="city">-</strong>
                     </li>
                     <li class="list-group-item">
-                        <span class="card-lable d-block">age</span>
-                        <strong id="age">-</strong>
+                        <span class="card-label d-block">name</span>
+                        <strong id="name">-</strong>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div class="card-shadow-sm" style="max-width: 400px;"
+        <div class="card-shadow-sm" style="max-width: 400px;">
+        <div class="card-body">
+            <h6 style="color: mediumseagreen;">JS Object used</h6>
+            <pre id="codeDisplay"
+            class="bg-light p-3 rounded border mb-0"></pre>
+        </div>
+        </div>
+    
+    </div>
+
+    <script>
+
+        var myContact = {
+            name: "jungkook",
+            phone: "0798773567",
+            company: "HYBE",
+            city: "Korean 전정국",
+        }
+
+     var nameEl  = document.getElementById("name");
+     var phoneEl = document.getElementById("phone");
+     nameEl.textContent  = myContact.name;
+     phoneEl.textContent = myContact.phone;
+
+     var companyEl = document.getElementById("company");
+     var cityEl = document.getElementById("city");
+     companyEl.textContent  = myContact["company"];
+     cityEl.textContent = myContact["city"];
+
+     var codeE1 = document.getElementById("codeDisplay")
+     codeE1.textContent = 'var myContact = {\n' +
+     'name; "' + myContact.name + '",\n' +
+     'phone;' + myContact.phone + '",\n' +
+     'company; "' + myContact.company + '",\n' +
+     'city; "' + myContact.city + '",\n' +
+     '};';
+
+     </script>
+</body>
+</html>

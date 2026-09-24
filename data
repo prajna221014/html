@@ -10,8 +10,8 @@
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <style>
-    body { background-image: linear-gradient (to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73)); }
-    h1 { color: rgb(33, 26, 74);}
+    body { background-image: linear-gradient(to bottom left, rgb(99, 90, 171), rgb(73, 137, 73), rgb(118, 118, 73)); }
+    h1 { color: rgb(130, 121, 177);}
     .card-lable {font-size: 12px; color: rgb(232, 215, 215); text-transform: uppercase;}
     pre { font-size: 15px; color: black;}
     </style>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Digital Zoo Manager</title>
+  <title>Zoo</title>
 
   <style>
     body {
@@ -62,12 +62,8 @@
 
 <body>
 
-  <h1>My Digital Zoo Manager</h1>
+  <h1>My Zoo</h1>
 
-  <p>
-    Use JavaScript and the DOM to explore animals, zones, parent nodes,
-    child nodes, and sibling nodes.
-  </p>
 
   <div id="zoo">
 

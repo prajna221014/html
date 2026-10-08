@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Planet Explorer</title>
+  <link 
+  rel="stylesheet" 
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+  
+  body {
+         background-color: lightblue; 
+        }
+
+        h1,
+        h3 {
+            color: teal;
+        }
+
+        .box {
+            background: white;
+            color: rgb(0, 139, 139);
+        }
+        </style>
+</head>
+<body>
+     <div class="container py-4">
+        <h1 class="mb-1">my magic word app</h1>
+        <p class="text-muted mb-4">
+            discover a new world of coding with js!
+        </p>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">what type is it?</h3>
+                <button class="btn btn-primary" onclick="checkTypes()">
+                    reveal the types!
+                </button>
+                <div id="typeResult" class="box p-3 mt-3 rounded">
+                </div>
+            </div>
+        </div>
+
+         <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">switch the type.</h3>
+                <input
+                id="numIn"
+                class="form-controll mb-2"
+                placeholder="type any number here (eg:67)"
+                />
+                <button class="btn btn-primary" onclick="toStr()">
+                    Turn into text!
+                </button>
+                <button class="btn btn-primary" onclick="toNum()">
+                    Turn into number!
+                </button>
+                <div id="convResult" class="box p-3 mt-3 rounded">
+                    type a number above then press the button
+                </div>
+            </div>
+         </div>
+
+          <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">find and swap a word</h3>
+                <input
+                id="findW"
+                class="form-controll mb-2"
+                placeholder="try to find a word (eg: dragon)"
+                />
+                <input
+                id="swapW"
+                class="form-controll mb-2"
+                placeholder="swap it with (eg: dinsaur)"
+                />
+                <button class="btn btn-primary" onclick="doSearch()">
+                    Find it!
+                </button>
+                <button class="btn btn-primary" onclick="doReplace()">
+                    Swap it!
+                </button>
+                <div id="srResult" class="box p-3 mt-3 rounded">
+                     sentece: The enormous, ancient dragon that had 
+                     slept beneath the mountains for thousands of
+                     years suddenly awoke when the archaeologists 
+                     accidentally disturbed its hidden cavern, 
+                     causing the entire valley to tremble beneath the
+                     weight of its thunderous footsteps.
+                </div>
+            </div>
+         </div>
+
+         <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">catch the mistake</h3>
+                <input
+                id="divIn"
+                class="form-controll mb-2"
+                placeholder="type a number thats 
+                about to be divided by 100"
+                />
+                <button class="btn btn-primary" onclick="checkTypes()">
+                    type something silly or you could play safe and
+                     type a boring number of your choice!
+                </button>
+                <div id="typeResult" class="box p-3 mt-3 rounded">
+                </div>
+            </div>
+        </div>

@@ -64,45 +64,47 @@
                 </div>
             </div>
         </div>
+    </div>
         <script>
             var songs = ["gods menu", "thunderous", "megaverse", "case 143", "run it", "this & that","maniac"];
             var plays = [56832, 49562, 34975, 213456, 315824, 3155682, 32587999];
 
-            document.getElementById("nameResults").innerHTML = "songs: " + songs;
-            document.getElementById("countResults").innerHTML = "plays: " + plays;
-            document.getElementById("lableResults").innerHTML = "press the button above!!!";
+            document.getElementById("nameResult").innerHTML = "songs: " + songs;
+            document.getElementById("countResult").innerHTML = "plays: " + plays;
+            document.getElementById("lableResult").innerHTML = "press the button above!!!";
 
             function sortAZ() {
                 songs.sort();
-                document.getElementById("nameResults").innerHTML = "songs: " + songs;
+                document.getElementById("nameResult").innerHTML = "songs: " + songs;
              }
 
              function sortZA() {
                 songs.sort();
                 songs.reverse();
-                document.getElementById("countResults").innerHTML = "songs: " + songs;
+                document.getElementById("nameResult").innerHTML = "songs: " + songs;
              }
 
              function sortLeast() {
                 plays.sort(function (a, b) {
                     return a - b;
                 });
-                document.getElementById("countResults").innerHTML = "plays: " + plays;
+                document.getElementById("countResult").innerHTML = "plays: " + plays;
              }  
 
              function sortMost() {
                 plays.sort(function (a, b) {
                     return b - a;
                 });
-                document.getElementById("countResults").innerHTML = "plays: " + plays;
+                document.getElementById("countResult").innerHTML = "plays: " + plays;
              }
 
-             function addLabel() {
+             function addLable() {
                 var lableledplays = plays.map(function (c) {
                     return c + " plays";
-                })
+                });
+                document.getElementById("lableResult").innerHTML = lableledplays;
              }
-             </script>
 
+             </script>
 </body>
 </html>

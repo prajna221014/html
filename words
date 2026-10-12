@@ -97,14 +97,66 @@
                 <input
                 id="divIn"
                 class="form-controll mb-2"
-                placeholder="type a number thats 
-                about to be divided by 100"
+                placeholder=" or type something silly"
                 />
-                <button class="btn btn-primary" onclick="checkTypes()">
+                <button class="btn btn-primary" onclick="trysafe()">
                     type something silly or you could play safe and
                      type a boring number of your choice!
                 </button>
-                <div id="typeResult" class="box p-3 mt-3 rounded">
+                <div id="errResult" class="box p-3 mt-3 rounded">
                 </div>
             </div>
         </div>
+     </div>
+     <script>
+        var sen = "The enormous, ancient dragon that had slept beneath the mountains for thousands of years suddenly awoke when the archaeologists accidentally disturbed its hidden cavern, causing the entire valley to tremble beneath the weight of its thunderous footsteps.";
+        function checkTypes() {
+            document.getElementById("typeResult").innerText = 
+            "score 67          - type: " + typeof 67 + "\nName 'hiteshri'      - type: " +
+            typeof "hiteshri" + "\n" + "game over true   - type: " + typeof true;
+        }
+
+        function toStr() {
+            var v = document.getElementById("numIn").value;
+            document.getElementById("convResult").innerHTML = 
+            "String(" + v + ") = '" + String(v) + "' - now it is a: " + typeof String(v);
+        }
+
+        function toNum() {
+            var v = document.getElementById("numIn").value;
+            document.getElementById("convResult").innerHTML = 
+            "Number(" + v + ") = '" + Number(v) + "' - now it is a: " + typeof Number(v);
+        }
+
+        function doSearch() {
+            var w = document.getElementById("findW").value;
+            var p = sen.search(w);
+            document.getElementById("srResult").innerHTML = 
+            p === -1
+            ?"'" + w + "' is not in thesentence - try another word!"
+            : "found '"+ w + "' hiding at position " + p + "!";
+        }
+
+        function doReplace() {
+            var w = document.getElementById("findW").value;
+            document.getElementById("srResult").innerHTML = 
+            "new sentence: " +
+            sen.replace(w, document.getElementById("swapW").value);
+        }
+
+        function trysafe() {
+            try {
+                var n = document.getElementById("divIn").value;
+                if (n === "" || isNaN(n)) {
+                    throw "That is not a number - u caught the error";
+            }
+            document.getElementById("errResult").innerHTML = 
+            "100 / " + n + " = " + 100 / Number(n) + " - well done!";
+            } catch (err) {
+                document.getElementById("errResult").innerHTML = 
+                "error caught: " + err;
+            }
+        }
+        </script>
+</body>
+</html>

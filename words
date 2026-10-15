@@ -109,6 +109,9 @@
         </div>
      </div>
      <script>
+
+        <img src="https://www.photowall.co.uk/tropical-waterfall-wallpaper" alt="sea life" width="250" height="100">
+
         var sen = "The enormous, ancient dragon that had slept beneath the mountains for thousands of years suddenly awoke when the archaeologists accidentally disturbed its hidden cavern, causing the entire valley to tremble beneath the weight of its thunderous footsteps.";
         function checkTypes() {
             document.getElementById("typeResult").innerText = 

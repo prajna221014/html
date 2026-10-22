@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Delivery Tracker</title>
+  <style>
+    
+     body {
+      font-family: Arial, sans-serif;
+      background: aliceblue;
+      text-align: center;
+      padding: 30px;
+     }
+  
+     h1 { color: #41ae91; }
+
+     input {
+        padding: 8px;
+        margin: 5px;
+        border: 2px dashed mediumturquoise;
+        border-radius: 6px;
+        width: 220px;
+     }
+
+     button {
+      background: #22b293;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+     }
+
+     #timer {
+        color: grey;
+     }
+  </style>
+</head>
+<body>
+    <h1>lucky draw</h1>
+
+    <input type="text" id="name" placeholder="ur name" required />
+    <p id="msg-name"></p>
+
+    <input
+    type="number"
+    id="guess"
+    placeholder="guess a number 1-5"
+    min="1"
+    max="5"
+    required
+    /><br />
+    <p id="msg-guess"></p>
+    <p id="timer"></p>
+
+    <script>
+        var seconds = 0;
+         setInterval(function () {
+            seconds = seconds + 1;
+            document.getElementById("timer").textContent = 
+            "u ve been here for " + seconds + "seconds!!!";
+         }, 1000);
+
+         function checkForm() {
+            var name = document.getElementById("name").value;
+            var guess = document.getElementById("guess").value;
+         }

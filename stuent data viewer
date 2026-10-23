@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>School Event Data Viewer</title>
+  <title>Event Viewer</title>
  
   <style>
     body {
@@ -22,11 +22,11 @@
     }
  
     h1 {
-      color: #1d4ed8;
+      color: #6ab39a;
     }
  
     button {
-      background-color: #2563eb;
+      background-color: #3b948e;
       color: white;
       border: none;
       border-radius: 25px;
@@ -68,11 +68,7 @@
  
   <div class="event-card">
  
-    <h1>School Event Data Viewer</h1>
- 
-    <p>
-      Click the button to load school event details using JSON and asynchronous JavaScript.
-    </p>
+    <h1>Event Viewer</h1>
  
     <button onclick="showSchoolEvent()">Load Event Details</button>
  
@@ -87,7 +83,7 @@
     </div>
  
     <div class="info-box">
-      <h2>JSON Text Output</h2>
+      <h2>json Text Output</h2>
       <p id="jsonOutput"></p>
     </div>
  

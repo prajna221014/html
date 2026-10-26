@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+
+  <style>
+    /* Page styling */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #333;
+    }
+
+    /* Calculator card */
+    .calculator {
+      width: 90%;
+      padding: 35px 25px;
+      background: #ffffff;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #5b4bba;
+      font-size: 30px;
+    }
+
+    .subtitle {
+      margin-bottom: 25px;
+      color: #777;
+      font-size: 14px;
+    }
+
+    /* Results */
+    .result {
+      margin: 12px 0;
+      padding: 15px;
+      background: #f4f5ff;
+      border-left: 5px solid #667eea;
+      border-radius: 8px;
+      text-align: left;
+      font-size: 15px;
+    }
+
+    .result span {
+      font-weight: bold;
+      color: #5b4bba;
+    }
+
+    .footer {
+      margin-top: 25px;
+      color: #999;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="calculator">
+    <h1>Simple Calculator</h1>
+
+    <p class="subtitle">
+      Perform all operations using JavaScript
+    </p>
+
+    <!-- Results will appear here -->
+    <p class="result" id="add"></p>
+    <p class="result" id="sub"></p>
+    <p class="result" id="mul"></p>
+    <p class="result" id="div"></p>
+
+    <p class="footer">Powered by HTML, CSS &amp; JavaScript</p>
+  </div>
+
+  <script>
+    // PART 1: two variables
+    let num1 = 10;
+    let num2 = 2;
+
+    // PART 2: the calculations
+    let add = num1 + num2;
+    let sub = num1 - num2;
+    let mul = num1 * num2;
+    let div = num1 / num2;
+
+    // PART 3: show the answers
+    document.getElementById("add").innerHTML =
+      "The added value is: <span>" + add + "</span>";
+
+    document.getElementById("sub").innerHTML =
+      "The subtracted value is: <span>" + sub + "</span>";
+
+    document.getElementById("mul").innerHTML =
+      "The multiplied value is: <span>" + mul + "</span>";
+
+    document.getElementById("div").innerHTML =
+      "The divided value is: <span>" + div + "</span>";
+  </script>
+
+</body>
+</html>

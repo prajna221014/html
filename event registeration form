@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Event Registration Form</title>
+  <title>Registration</title>
  
   <style>
     body {
@@ -84,11 +84,7 @@
  
   <div class="form-card">
  
-    <h1>Event Registration Form</h1>
- 
-    <p>
-      Fill in the form to register for the school event and generate your event pass.
-    </p>
+    <h>Registration Form</h1>
  
     <form id="eventForm">
  
@@ -114,18 +110,18 @@
         type="number"
         id="age"
         required
-        min="8"
-        max="18"
+        min="6"
+        max="21"
         placeholder="Enter your age"
       >
  
       <label for="eventName">Choose Event</label>
       <select id="eventName" required>
         <option value="">Select an event</option>
-        <option value="Science Fair">Science Fair</option>
-        <option value="Coding Workshop">Coding Workshop</option>
+        <option value="Science Fair">math Competition</option>
+        <option value="Coding Workshop">swimming Competition</option>
         <option value="Art Competition">Art Competition</option>
-        <option value="Sports Day">Sports Day</option>
+        <option value="Sports Day">Sports Competition</option>
       </select>
  
       <button type="button" onclick="registerEvent()">Register Now</button>

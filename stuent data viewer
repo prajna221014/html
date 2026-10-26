@@ -104,12 +104,12 @@
         setTimeout(function() {
  
           let schoolEvent = {
-            eventName: "Annual Science Fair",
-            date: "25 August 2026",
-            time: "10:00 AM",
-            venue: "School Auditorium",
-            coordinator: "Ms. Priya",
-            participants: 120,
+            eventName: "Annual art competition",
+            date: "21 October 2026",
+            time: "12:00 AM",
+            venue: "School canteen",
+            coordinator: "Ms. Devalia",
+            participants: 67,
             isRegistrationOpen: true
           };
  

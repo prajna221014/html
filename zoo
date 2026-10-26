@@ -137,7 +137,6 @@
         "Lion Zone first child text node type: " + textNodeType + "<br><br>" +
 
         "<strong>DOM Update:</strong><br>" +
-        "The animal zone headings and background colours were updated using JavaScript.";
     }
   </script>
 

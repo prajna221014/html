@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tinu's Profile - Objects & Arrays</title>
+  <style>
+    :root {
+      --primary: #6c5ce7;
+      --secondary: #a29bfe;
+      --bg: #f8f9fa;
+      --card-bg: #ffffff;
+      --text: #2d3436;
+      --border: #dfe6e9;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: mediumseagreen;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 600px;
+      background: teal;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      margin-top: 0;
+      margin-bottom: 25px;
+      font-size: 1.8rem;
+    }
+
+    .section {
+      margin-bottom: 25px;
+      padding-bottom: 20px;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .section:last-of-type {
+      border-bottom: none;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1px;
+      color: whitesmoke;
+      margin-bottom: 15px;
+    }
+
+    .info-grid {
+      background: #f1f2f6;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .key {
+      font-weight: 600;
+      color: mediumblue;
+    }
+
+    .value {
+      color: mediumturquoise;
+    }
+
+    .output-box {
+      background: #2d3436;
+      color: #00ff88;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 10px;
+    }
+
+    .btn {
+      background: mediumspringgreen;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600
+    }
+
+    .btn:hover {
+      background: #5b4cc4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Tinu's Data</h1>
+
+    <div class="section">
+      <h2>👤 Personal Information (Object Keys)</h2>
+      <div class="info-grid" id="object-output">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎨 Favourite Colours</h2>
+      <div class="output-box" id="index-output"></div>
+    </div>
+
+    <div class="section">
+      <h2>⚙️ Array Methods</h2>
+      <div class="output-box" id="methods-output"></div>
+      <button class="btn" onclick="performPop()">Execute .pop() Method</button>
+    </div>
+  </div>
+
+  <script>
+    const tinuInfo = {
+      name: "lexi",
+      age: 13,
+      city: "Watford",
+      hobby: "textig,scrolling,music!!!!!!!!"
+    };
+
+    // 2. Creating variables with arrays
+    let favoriteColors = ["Blue", "Green"];
+
+    // Displaying Object data using specific keys
+    const objectOutput = document.getElementById('object-output');
+    objectOutput.innerHTML = `
+      <div class="key">Name:</div><div class="value">${tinuInfo.name}</div>
+      <div class="key">Age:</div><div class="value">${tinuInfo.age}</div>
+      <div class="key">City:</div><div class="value">${tinuInfo.city}</div>
+      <div class="key">Hobby:</div><div class="value">${tinuInfo.hobby}</div>
+    `;
+
+    // Function to render the array elements and methods
+    function renderArraySections() {
+      // Displaying Array data using index values
+      const indexOutput = document.getElementById('index-output');
+      indexOutput.innerHTML = `Index 0: ${favoriteColors[0]}\nIndex 2: ${favoriteColors[2]}`;
+
+      // Displaying array using join function
+      const methodsOutput = document.getElementById('methods-output');
+      methodsOutput.innerHTML = `Whole Array (.join): [ ${favoriteColors.join(" | ")} ]`;
+    }
+
+    // 4. Function to perform pop operation on button click
+    function performPop() {
+      if (favoriteColors.length > 0) {
+        // pop function removes the last element and displays it
+        let removedColor = favoriteColors.pop();
+        
+        const methodsOutput = document.getElementById('methods-output');
+        methodsOutput.innerHTML = `Popped Element: "${removedColor}"\n\nUpdated Array (.join): [ ${favoriteColors.join(" | ")} ]`;
+      } else {
+        alert("The array is empty! No more items to pop.");
+      }
+    }
+
+    // Initial load execution
+    renderArraySections();
+  </script>
+
+</body>
+</html>

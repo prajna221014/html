@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods and Loops</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: midnightblue;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #5b4baf;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background-color: #f4f2ff;
+            border-left: 5px solid #764ba2;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        h2 {
+            color: #5b4baf;
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        #numbers {
+            color: #333;
+            line-height: 1.8;
+        }
+
+        #random, #day {
+            color: #333;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #764ba2;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #5b3b83;
+        }
+
+        footer {
+            margin-top: 25px;
+            color: #888;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Methods and Loops</h1>
+        <p class="subtitle">Practising JavaScript with loops and methods</p>
+
+        <div class="card">
+            <h2>Part 1: Numbers from 1 to 10</h2>
+            <p id="numbers"></p>
+        </div>
+
+        <div class="card">
+            <h2>Part 2: Random Number</h2>
+            <p id="random"></p>
+            <button onclick="generateRandomNumber()">
+                Generate New Number
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Part 3: Today's Day Number</h2>
+            <p id="day"></p>
+        </div>
+
+        <footer>
+            JavaScript Practice Project
+        </footer>
+    </div>
+
+    <script>
+        // PART 1: The numbers 1 to 10
+        let text = "";
+
+        for (let i = 1; i <= 10; i++) {
+            text += i + "<br>";
+        }
+
+        document.getElementById("numbers").innerHTML = text;
+
+
+        // PART 2: A random whole number from 0 to 99
+        function generateRandomNumber() {
+            let randomNumber = Math.floor(Math.random() * 100);
+
+            document.getElementById("random").innerHTML =
+                "The random number is " + randomNumber;
+        }
+
+        // Display a random number when the page loads
+        generateRandomNumber();
+
+
+        // PART 3: Today's day number
+        let dayNumber = new Date().getDay();
+
+        document.getElementById("day").innerHTML =
+            "Today's day number is " + dayNumber;
+    </script>
+
+</body>
+</html>

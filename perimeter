@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Perimeter</title>
+<script>
+    var choice = prompt(
+        "welcome to area calc." +
+        "\n Pls entr ur choice." +
+        "\n1.Perimeter of rectangle." +
+        "\n2.Perimeter of square." +
+        "\n3.Perimeter of triangle.",
+    );
+
+    if (choice == "1") {
+        var l = prompt("enter the length");
+        var w = prompt("enter the width");
+        var result = Number(l) + Number(w) * 2;
+        alert("the Perimeter is " + result);
+    }
+
+     if (choice == "2") {
+        var l = prompt("enter the length");
+        var w = prompt("enter the width");
+        var result = Number(l) + Number(w) * 2;
+        alert("the Perimeter is " + result);
+    }
+
+     if (choice == "2") {
+        var side-1 = prompt("enter the digit");
+        var side-2 = prompt("enter the digit");
+        var side-3 = prompt("enter the digit");
+        var result = Number(l) + Number(w) * 2;
+        alert("the Perimeter is " + result);
+    }
+
+     </script>
+</head>
+
+<body></body>
+</html>

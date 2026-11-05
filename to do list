@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>to do list</title> 
+     <style>
+        body {
+        font: 12px system-ui, 
+            sans-serif;
+        max-width: 240px;
+        margin: 28px auto;
+        padding: 10px;
+        border: 1px solid teal;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px black(0, 0, 0, 0.85);
+        }
+
+        h3 {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: teal;
+            margin: 10px 0 4px;
+        }
+
+        h3:first-of-type {
+            margin-top: 0;
+        }
+
+        #myForm {
+            display: flex;
+            gap: 10px;
+        }
+
+        #myInput {
+            flex: 1;
+            padding: 4px;
+            border: 1px solid teal;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        #myInput:focus {
+            border-color: teal;
+        }
+
+        #myForm button {
+            background: teal;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #myItem {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #myItem li {
+            display: flex;
+            justify-content: 
+            space-between;
+            align-items: center;
+            padding: 4px 6px;
+            background: white;
+            border-radius: 4px;
+            margin-bottom: 4px;
+        }
+
+        #myItem button {
+            background: none;
+            border: none;
+            color: teal;
+            cursor: pointer;
+            font-size: 10px;
+        }
+        </style>
+ </head>
+ <body>
+    

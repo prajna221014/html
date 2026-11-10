@@ -1,81 +1,108 @@
 <!DOCTYPE html>
 <html>
- <head>
-     <title>to do list</title> 
-     <style>
-        body {
-        font: 12px system-ui, 
-            sans-serif;
-        max-width: 240px;
-        margin: 28px auto;
-        padding: 10px;
-        border: 1px solid teal;
-        border-radius: 6px;
-        box-shadow: 0 2px 8px black(0, 0, 0, 0.85);
+    <head> 
+        <title>My Shopping List</title> 
+        <style>
+         body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f0f4f8; 
+            text-align: center; 
+            padding: 40px; 
         }
+            .container { 
+                background: white; 
+                max-width: 450px; 
+                margin: 0 auto; 
+                padding: padding: 25px; border-radius: 12px;
+                 box-shadow: 0 2px 10px #ccc; 
+                 }      
+                #h1 { colour: #2874a6; } 
+                input { 
+                    padding: 12px; width: 60%; 
+                    border: 1px solid #ccc;
+                    border-radius: 
+                } 
+                 button { 
+                    padding: 12px;
+                    background: #2874a6;
+                    colour: white;
+                    border: none;            
+                    border-radius: 5px;
+                    cursor: pointer;
+                    }
+                     ul { 
+                        list-style: none;
+                        padding: 0; 
+                        } 
+                        li { 
+                            background: #eaf2f8;
+                            margin: 10px 0; 
+                            padding: 12px;
+                            display: flex;
+                            justify-content: space-between; 
+                            align-items: center;    
+                            border-radius: 5px;
+                            } 
+                            .bought { 
+                            text-decoration: line-through; 
+                            colour: grey;   
+                            } 
+                            .delete {background: #e74c3c;} 
+                            .clear { background: #555; margin-top: 15px; }
+                             </style>
+                             </head>
+                             <body>
 
-        h3 {
-            font-size: 11px;
-            text-transform: uppercase;
-            color: teal;
-            margin: 10px 0 4px;
-        }
+                                <div class="container">
 
-        h3:first-of-type {
-            margin-top: 0;
-        }
+                                    <h1>My Shopping List 🛒</h1>
 
-        #myForm {
-            display: flex;
-            gap: 10px;
-        }
+                                    <input type="text" id="itemInput" placeholder="Enter shopping item">
 
-        #myInput {
-            flex: 1;
-            padding: 4px;
-            border: 1px solid teal;
-            border-radius: 4px;
-            outline: none;
-        }
+                                    <button onclick="addItem()">Add</button>
 
-        #myInput:focus {
-            border-color: teal;
-        }
+                                    <ul id="shoppingList"></ul>
 
-        #myForm button {
-            background: teal;
-            color: white;
-            border: none;
-            padding: 4px 8px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+                                    <button class="clear" onclick="clearList()Clear All </button>
 
-        #myItem {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
+                                    </div>
 
-        #myItem li {
-            display: flex;
-            justify-content: 
-            space-between;
-            align-items: center;
-            padding: 4px 6px;
-            background: white;
-            border-radius: 4px;
-            margin-bottom: 4px;
-        }
+                                    <script> 
 
-        #myItem button {
-            background: none;
-            border: none;
-            color: teal;
-            cursor: pointer;
-            font-size: 10px;
-        }
-        </style>
- </head>
- <body>
-    
+                                    function addItem() { let input = document.let input = document. getElementById("itemInput");
+
+                                    let item = input.value.trim(); if (item === "") { alert("Please enter an item!");
+
+                                    return; } let list = document.document.getElementById("shoppingList"); 
+
+                                    let li = document.let li = document.createElement('li');
+
+                                    let span = document.createElement('span');
+
+                                    createElement('span'); 
+                                    
+                                    span.textContent = item;
+
+                                    span.onclick = function() { span.classList.toggle("bought"); 
+
+                                    };const deleteButton = document.createElement("button");
+
+                                    deleteButton.textContent = "Delete";
+
+                                    deleteButton.className =Name = "delete"; 
+
+                                    deleteButton.onclick = function() { li.li.remove();
+
+                                 };
+
+                                 li.appendChild(span); 
+
+                                 li.appendChild(deleteButton);
+
+                                  list.appendChild(li); input.value = "";
+
+                                 } function clearList() { document.getElementById("shoppingList").innerHTML = "";
+
+                                  </script>
+                                   </body> 
+                                   </html>
